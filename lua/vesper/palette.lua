@@ -22,7 +22,7 @@ local palette = {
 	vesper0 = '#101010',
 	vesper1 = '#1C1C1C',
 	vesper2 = '#161616',
-	vesper3 = '#666',
+	vesper3 = '#666666',
 	-- vesper4 = '#666',
 
 	fg0 = '#fafafa',
