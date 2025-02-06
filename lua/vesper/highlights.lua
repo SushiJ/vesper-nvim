@@ -112,7 +112,7 @@ M.highlights = {
 	Type = { fg = p.hint } + styles.keywords,
 	Structure = { fg = p.hint } + styles.keywords,
 	StorageClass = { fg = p.hint } + styles.keywords,
-	Identifier = { fg = p.debug } + styles.identifiers,
+	Identifier = { fg = p.fg0 } + styles.identifiers,
 	Constant = { fg = p.debug } + styles.variables,
 	PreProc = { fg = p.error },
 	PreCondit = { fg = p.error },
@@ -451,7 +451,7 @@ M.highlights = {
 function M.setup()
 	local highlights = type(config.custom_highlights) == 'function'
 			and config.custom_highlights(M.highlights, p)
-		or config.custom_highlights
+			or config.custom_highlights
 	load_highlights(vim.tbl_extend('force', M.highlights, highlights))
 	if config.terminal_colors then
 		terminal.setup()
