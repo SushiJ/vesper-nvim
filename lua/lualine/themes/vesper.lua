@@ -1,34 +1,34 @@
 local p = require('vesper.palette')
 
 return {
-	normal = {
-		a = { bg = p.rose, fg = p.base, gui = 'bold' },
-		b = { bg = p.overlay, fg = p.rose },
-		c = { bg = p.base, fg = p.text },
-	},
-	insert = {
-		a = { bg = p.foam, fg = p.base, gui = 'bold' },
-		b = { bg = p.overlay, fg = p.foam },
-		c = { bg = p.base, fg = p.text },
-	},
-	visual = {
-		a = { bg = p.iris, fg = p.base, gui = 'bold' },
-		b = { bg = p.overlay, fg = p.iris },
-		c = { bg = p.base, fg = p.text },
-	},
-	replace = {
-		a = { bg = p.pine, fg = p.base, gui = 'bold' },
-		b = { bg = p.overlay, fg = p.pine },
-		c = { bg = p.base, fg = p.text },
-	},
-	command = {
-		a = { bg = p.love, fg = p.base, gui = 'bold' },
-		b = { bg = p.overlay, fg = p.love },
-		c = { bg = p.base, fg = p.text },
-	},
-	inactive = {
-		a = { bg = p.base, fg = p.muted, gui = 'bold' },
-		b = { bg = p.base, fg = p.muted },
-		c = { bg = p.base, fg = p.muted },
-	},
+  normal = {
+    a = { bg = p.hint, fg = p.vesper0, gui = 'bold' },
+    b = { bg = p.vesper0, fg = p.fg0 },
+    c = { bg = p.vesper0, fg = p.fg0 },
+  },
+  insert = {
+    a = { bg = p.warn, fg = p.vesper0, gui = 'bold' },
+    b = { bg = p.vesper0, fg = p.fg0 },
+    c = { bg = p.vesper0, fg = p.fg0 },
+  },
+  visual = {
+    a = { bg = p.debug, fg = p.vesper0, gui = 'bold' },
+    b = { bg = p.vesper0, fg = p.fg0 },
+    c = { bg = p.vesper0, fg = p.fg0 },
+  },
+  replace = {
+    a = { bg = p.cyan, fg = p.vesper0, gui = 'bold' },
+    b = { bg = p.vesper0, fg = p.fg0 },
+    c = { bg = p.vesper0, fg = p.fg0 },
+  },
+  command = {
+    a = { bg = p.cyan, fg = p.vesper0, gui = 'bold' },
+    b = { bg = p.vesper0, fg = p.fg0 },
+    c = { bg = p.vesper0, fg = p.fg0 },
+  },
+  inactive = {
+    a = { bg = p.vesper2, fg = p.fg1, gui = 'bold' },
+    b = { bg = p.vesper2, fg = p.fg1 },
+    c = { bg = p.vesper2, fg = p.fg1 },
+  },
 }
